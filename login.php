@@ -90,7 +90,7 @@
 				
 				$password_hash = hash("sha512", $create_password);
 				echo "<br>";
-				echo $password_hash;
+				
 				
 				// User klassi sees olev funktsioon
 				$create_response = $User->createUser($create_email, $password_hash);
